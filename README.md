@@ -1,7 +1,7 @@
 # 🧪 Demo Flow (Step-by-Step)
 ## Step 1️⃣ Clone & Open the Repository
 
-# From GitHub:
+## From GitHub:
 
 - git clone <repository-url>
 - cd <repository-name>
@@ -20,7 +20,7 @@
 
 ## Step 3️⃣ Understand prompts.txt
 
-# prompts.txt contains ordered instructions telling Copilot:
+## prompts.txt contains ordered instructions telling Copilot:
 
 - Which files to generate
 
@@ -228,6 +228,7 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
 
