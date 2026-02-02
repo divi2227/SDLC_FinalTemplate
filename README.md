@@ -32,13 +32,13 @@
 
 ## Step 4️⃣ Requirement Phase (AI-Assisted)
 
-## Action
+## Action:
 
 ## Open Copilot Chat and run:
 
 - “Execute the prompts in prompts.txt sequentially for the requirements folder.”
 
-## What AI Does
+## What AI Does:
 
 - Reads 00_raw_input.md
 
@@ -70,7 +70,7 @@
 
 ## Step 5️⃣ Design Phase (HLD & LLD)
 
-##Action
+## Action:
 
 ## After requirements are complete, ask:
 
@@ -112,7 +112,7 @@
 
 ## Step 6️⃣ Code Generation
 
-## Action
+## Action:
 
 ## Ask Copilot:
 
@@ -130,7 +130,7 @@
 
 ## Step 7️⃣ AI-Assisted Code Review
 
-## Action
+## Action:
 
 ## Ask Copilot:
 
@@ -150,7 +150,7 @@
 
 ## Step 8️⃣ AI-Driven Refactoring
 
-## Action
+## Action:
 
 ## After human review:
 
@@ -174,13 +174,13 @@
 
 ## Step 🔟 Automated Testing with AI (Playwright)
 
-## Action
+## Action:
 
 ## Ask Copilot:
 
 - “Generate Playwright test cases for this application.”
 
-## Test Coverage Includes
+## Test Coverage Includes:
 
 ✅ Unit tests
 
@@ -228,6 +228,7 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
 
