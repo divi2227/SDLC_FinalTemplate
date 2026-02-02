@@ -1,7 +1,7 @@
 # 🧪 Demo Flow (Step-by-Step)
 ## Step 1️⃣ Clone & Open the Repository
 
-#From GitHub:
+# From GitHub:
 
 - git clone <repository-url>
 - cd <repository-name>
@@ -228,5 +228,6 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
