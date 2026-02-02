@@ -1,5 +1,5 @@
-🧪 Demo Flow (Step-by-Step)
-Step 1️⃣ Clone & Open the Repository
+## 🧪 Demo Flow (Step-by-Step)
+# Step 1️⃣ Clone & Open the Repository
 
 From GitHub:
 
@@ -10,7 +10,7 @@ code .
 
 Open the folder in VS Code.
 
-Step 2️⃣ Enable GitHub Copilot
+# Step 2️⃣ Enable GitHub Copilot
 
 Open GitHub Copilot Chat
 
@@ -18,7 +18,7 @@ Select GPT-5.2-Open AI or Claude (Haiku/Sonnet) as the model
 
 Ensure Copilot has access to workspace files
 
-Step 3️⃣ Understand prompts.txt
+# Step 3️⃣ Understand prompts.txt
 
 prompts.txt contains ordered instructions telling Copilot:
 
@@ -30,7 +30,7 @@ What context to use
 
 👉 This is the single control file for the demo
 
-Step 4️⃣ Requirement Phase (AI-Assisted)
+# Step 4️⃣ Requirement Phase (AI-Assisted)
 Action
 
 Open Copilot Chat and run:
@@ -63,11 +63,11 @@ Avoids hallucination (rules enforced in file headers)
 
 Produces review-ready content
 
-📈 Result:
+## 📈 Result:
 
 Requirements preparation effort reduced by ~50–60%
 
-Step 5️⃣ Design Phase (HLD & LLD)
+# Step 5️⃣ Design Phase (HLD & LLD)
 Action
 
 After requirements are complete, ask:
@@ -104,11 +104,11 @@ Error handling
 
 Open design questions
 
-📈 Result:
+## 📈 Result:
 
 Design documentation generated faster with higher consistency and traceability.
 
-Step 6️⃣ Code Generation
+# Step 6️⃣ Code Generation
 Action
 
 Ask Copilot:
@@ -125,7 +125,7 @@ Align with documented APIs and schemas
 
 Human verifies correctness and feasibility.
 
-Step 7️⃣ AI-Assisted Code Review
+# Step 7️⃣ AI-Assisted Code Review
 Action
 
 Ask Copilot:
@@ -144,7 +144,7 @@ Security risks
 
 Readability and maintainability
 
-Step 8️⃣ AI-Driven Refactoring
+# Step 8️⃣ AI-Driven Refactoring
 Action
 
 After human review:
@@ -159,7 +159,7 @@ Preserves functionality
 
 Improves structure
 
-Step 9️⃣ Run the Application
+# Step 9️⃣ Run the Application
 
 Human runs the application locally to ensure:
 
@@ -167,14 +167,14 @@ It builds successfully
 
 Core flows work as expected
 
-Step 🔟 Automated Testing with AI (Playwright)
+# Step 🔟 Automated Testing with AI (Playwright)
 Action
 
 Ask Copilot:
 
 “Generate Playwright test cases for this application.”
 
-Test Coverage Includes
+## Test Coverage Includes
 
 ✅ Unit tests
 
@@ -198,7 +198,7 @@ Reusable utilities
 
 Tests are then executed locally.
 
-📊 What This Demo Proves
+## 📊 What This Demo Proves
 
 AI can accelerate every SDLC phase
 
@@ -218,7 +218,8 @@ Human approval
 
 Version control
 
-🧠 Key Takeaway
+## 🧠 Key Takeaway
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
