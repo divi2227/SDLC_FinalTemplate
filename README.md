@@ -1,178 +1,184 @@
-## 🧪 Demo Flow (Step-by-Step)
-# Step 1️⃣ Clone & Open the Repository
+# 🧪 Demo Flow (Step-by-Step)
+## Step 1️⃣ Clone & Open the Repository
 
-From GitHub:
+#From GitHub:
 
-git clone <repository-url>
-cd <repository-name>
-code .
+- git clone <repository-url>
+- cd <repository-name>
+- code .
 
 
-Open the folder in VS Code.
+- Open the folder in VS Code.
 
-# Step 2️⃣ Enable GitHub Copilot
+## Step 2️⃣ Enable GitHub Copilot
 
-Open GitHub Copilot Chat
+- Open GitHub Copilot Chat
 
-Select GPT-5.2-Open AI or Claude (Haiku/Sonnet) as the model
+- Select GPT-5.2-Open AI or Claude (Haiku/Sonnet) as the model
 
-Ensure Copilot has access to workspace files
+- Ensure Copilot has access to workspace files
 
-# Step 3️⃣ Understand prompts.txt
+## Step 3️⃣ Understand prompts.txt
 
-prompts.txt contains ordered instructions telling Copilot:
+# prompts.txt contains ordered instructions telling Copilot:
 
-Which files to generate
+- Which files to generate
 
-In what sequence
+- In what sequence
 
-What context to use
+- What context to use
 
 👉 This is the single control file for the demo
 
-# Step 4️⃣ Requirement Phase (AI-Assisted)
-Action
+## Step 4️⃣ Requirement Phase (AI-Assisted)
 
-Open Copilot Chat and run:
+## Action
 
-“Execute the prompts in prompts.txt sequentially for the requirements folder.”
+## Open Copilot Chat and run:
 
-What AI Does
+- “Execute the prompts in prompts.txt sequentially for the requirements folder.”
 
-Reads 00_raw_input.md
+## What AI Does
 
-Generates structured content across:
+- Reads 00_raw_input.md
 
-Problem statement
+- Generates structured content across:
 
-Goals
+=> Problem statement
 
-Scope
+=> Goals
 
-PRD
+=> Scope
 
-User stories
+=> PRD
 
-Acceptance criteria
+=> User stories
 
-Each file:
+=> Acceptance criteria
 
-Uses prior files as context
+## Each file:
 
-Avoids hallucination (rules enforced in file headers)
+- Uses prior files as context
 
-Produces review-ready content
+- Avoids hallucination (rules enforced in file headers)
 
-## 📈 Result:
+- Produces review-ready content
 
-Requirements preparation effort reduced by ~50–60%
+# 📈 Result:
 
-# Step 5️⃣ Design Phase (HLD & LLD)
-Action
+- Requirements preparation effort reduced by ~50–60%
 
-After requirements are complete, ask:
+## Step 5️⃣ Design Phase (HLD & LLD)
 
-“Re-read prompts.txt and execute the design phase prompts now.”
+##Action
 
-High-Level Design (HLD)
+## After requirements are complete, ask:
 
-AI generates:
+- “Re-read prompts.txt and execute the design phase prompts now.”
 
-System architecture overview
+## High-Level Design (HLD)
 
-Component boundaries
+## AI generates:
 
-Data flow descriptions
+- System architecture overview
 
-Tech stack decisions
+- Component boundaries
 
-Non-functional requirements
+- Data flow descriptions
 
-Low-Level Design (LLD)
+- Tech stack decisions
 
-AI generates:
+- Non-functional requirements
 
-Component-level behavior
+- Low-Level Design (LLD)
 
-API contracts
+## AI generates:
 
-Database schemas
+- Component-level behavior
 
-Sequence flows
+- API contracts
 
-Error handling
+- Database schemas
 
-Open design questions
+- Sequence flows
 
-## 📈 Result:
+- Error handling
 
-Design documentation generated faster with higher consistency and traceability.
+- Open design questions
 
-# Step 6️⃣ Code Generation
-Action
+# 📈 Result:
 
-Ask Copilot:
+- Design documentation generated faster with higher consistency and traceability.
 
-“Generate the application code using the finalized PRD, HLD, and LLD.”
+## Step 6️⃣ Code Generation
 
-AI Responsibilities
+## Action
 
-Follow design constraints
+## Ask Copilot:
 
-Generate modular, readable code
+- “Generate the application code using the finalized PRD, HLD, and LLD.”
 
-Align with documented APIs and schemas
+## AI Responsibilities:
 
-Human verifies correctness and feasibility.
+- Follow design constraints
 
-# Step 7️⃣ AI-Assisted Code Review
-Action
+- Generate modular, readable code
 
-Ask Copilot:
+- Align with documented APIs and schemas
 
-“Perform a senior-engineer code review and generate a review report.”
+- Human verifies correctness and feasibility.
 
-AI checks for:
+## Step 7️⃣ AI-Assisted Code Review
 
-Code smells
+## Action
 
-Design violations
+## Ask Copilot:
 
-Performance issues
+- “Perform a senior-engineer code review and generate a review report.”
 
-Security risks
+## AI checks for:
 
-Readability and maintainability
+- Code smells
 
-# Step 8️⃣ AI-Driven Refactoring
-Action
+- Design violations
 
-After human review:
+- Performance issues
 
-“Fix the issues identified in the code review and refactor the code.”
+- Security risks
 
-AI:
+- Readability and maintainability
 
-Applies minimal, safe changes
+## Step 8️⃣ AI-Driven Refactoring
 
-Preserves functionality
+## Action
 
-Improves structure
+## After human review:
 
-# Step 9️⃣ Run the Application
+- “Fix the issues identified in the code review and refactor the code.”
 
-Human runs the application locally to ensure:
+## AI:
 
-It builds successfully
+- Applies minimal, safe changes
 
-Core flows work as expected
+- Preserves functionality
 
-# Step 🔟 Automated Testing with AI (Playwright)
-Action
+- Improves structure
 
-Ask Copilot:
+## Step 9️⃣ Run the Application
 
-“Generate Playwright test cases for this application.”
+## Human runs the application locally to ensure:
+
+- It builds successfully
+
+- Core flows work as expected
+
+## Step 🔟 Automated Testing with AI (Playwright)
+
+## Action
+
+## Ask Copilot:
+
+- “Generate Playwright test cases for this application.”
 
 ## Test Coverage Includes
 
@@ -186,40 +192,41 @@ Ask Copilot:
 
 ✅ Navigation & click-flow tests
 
-AI generates:
+## AI generates:
 
-Test structure
+- Test structure
 
-Assertions
+- Assertions
 
-Test data
+- Test data
 
-Reusable utilities
+- Reusable utilities
 
-Tests are then executed locally.
+- Tests are then executed locally.
 
-## 📊 What This Demo Proves
+# 📊 What This Demo Proves
 
-AI can accelerate every SDLC phase
+- AI can accelerate every SDLC phase
 
-Productivity gains come from:
+- Productivity gains come from:
 
-Reduced blank-page effort
+- Reduced blank-page effort
 
-Fewer clarification loops
+- Fewer clarification loops
 
-Automated testing & review
+- Automated testing & review
 
-Quality is preserved through:
+## Quality is preserved through:
 
-Structured prompts
+- Structured prompts
 
-Human approval
+- Human approval
 
-Version control
+- Version control
 
-## 🧠 Key Takeaway
+# 🧠 Key Takeaway
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
