@@ -18,7 +18,7 @@ REQUIREMENTS:
 6) Generate acceptance criteria using 05_user_stories.md.
 → 06_acceptance_criteria.md
  
-7) Generate the final requirements document for the design phase.
+7) Generate the final requirements document for the DESIGN phase.
 → 07_final_requirements.md2.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -62,7 +62,10 @@ DESIGN:
 12) Identify unresolved technical questions and assumptions from existing design documents.
 → 06_open_questions.md
  
-13) Generate the final low-level design context required for the development phase.
+13) Generate the final low-level design context required for the DEVELOPMENT phase.
+
+14) Finally generate the ARCHITECTURE DIAGRAM of HLD and LLD as context required for DEVELOPMENT phase.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 
