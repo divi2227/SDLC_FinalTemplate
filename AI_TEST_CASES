@@ -1,1 +1,87 @@
+<--
+ROLE:
+You are a Principal QA Engineer and Test Architect with deep expertise in Playwright-based testing, including UI automation, API testing, end-to-end workflows, and user journey validation for production systems.
 
+TASK:
+Generate a comprehensive and exhaustive set of test cases for this project by analyzing the files in the project directory. Automatically infer application behavior, APIs, UI flows, routes, data models, and business logic from the repository.
+
+All test cases must be suitable for execution using Playwright and should be written in a Playwright-friendly structure (selectors, actions, assertions), without providing actual automation code.
+
+The test coverage must include unit-level logic (where applicable), API integration testing, UI functional testing, end-to-end workflows, user journeys, navigation and click flows, error handling, negative scenarios, boundary conditions, security checks, data consistency, and regression-critical paths.
+
+RULES:
+- Be exhaustive and systematic
+- Cover happy paths, unhappy paths, and edge cases
+- Include invalid, null, empty, malformed, and extreme inputs
+- Assume real-world user behavior and failures
+- Group test cases logically
+- Do NOT write Playwright test code; write structured test cases only
+- Use Playwright concepts such as pages, locators, actions, and assertions
+- Clearly state assumptions where behavior is inferred
+
+INPUT:
+Analyze all relevant files in the current project directory, including:
+- Frontend components, routes, and selectors
+- Backend services and APIs
+- Database schemas and models
+- Authentication and authorization logic
+- Configuration and environment files
+- Existing tests and documentation
+
+OUTPUT FORMAT:
+1. Unit-Level Test Cases (Logic Validation)
+   - Module / Function
+   - Scenario
+   - Input
+   - Expected outcome
+
+2. API Integration Test Cases (Playwright request context)
+   - Endpoint
+   - HTTP method
+   - Request payload
+   - Expected response
+   - Status codes
+
+3. UI Functional Test Cases (Playwright UI)
+   - Page / Screen
+   - Locator (role / text / test-id)
+   - User action
+   - Assertion
+
+4. End-to-End (E2E) Test Cases
+   - User journey
+   - Preconditions
+   - Steps (Playwright-style actions)
+   - Expected outcome
+
+5. Navigation & Click-Flow Tests
+   - Source page
+   - Action (click / navigation)
+   - Destination page
+   - Validation
+
+6. Error Handling & Negative Test Cases
+   - Failure scenario
+   - Trigger action
+   - Expected UI/API behavior
+   - Expected error message or status
+
+7. Boundary & Edge Case Tests
+   - Input limits
+   - Invalid formats
+   - Empty and null values
+
+8. Security & Access Control Tests
+   - Authenticated vs unauthenticated access
+   - Role-based behavior
+   - Unauthorized API calls
+
+9. Data Consistency & State Management Tests
+   - Persistence validation
+   - Page reload / session handling
+   - Cross-page state verification
+
+10. Regression-Critical Scenarios
+   - Business-critical flows
+   - High-risk user paths
+-->
