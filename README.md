@@ -14,7 +14,7 @@
 
 - Open GitHub Copilot Chat
 
-- Select GPT-5.2-Open AI or Claude (Haiku/Sonnet) as the model
+- Select GPT-5.2-Open AI or Claude (Opus/Haiku/Sonnet) as the model
 
 - Ensure Copilot has access to workspace files
 
@@ -36,7 +36,7 @@
 
 ## Open Copilot Chat and run:
 
-- “Execute the prompts in prompts.txt sequentially for the requirements folder.”
+- “Execute the prompts in prompts.txt under REQUIREMENTS sequentially for the requirements folder.”
 
 ## What AI Does:
 
@@ -74,7 +74,7 @@
 
 ## After requirements are complete, ask:
 
-- “Re-read prompts.txt and execute the design phase prompts now.”
+- “Re-read prompts.txt and execute the prompts for DESIGN phase - HLD & LLD.”
 
 ## High-Level Design (HLD)
 
@@ -106,6 +106,9 @@
 
 - Open design questions
 
+## Architecture Diagram
+- AI generates the diagrams for HLD and LLD.
+
 # 📈 Result:
 
 - Design documentation generated faster with higher consistency and traceability.
@@ -134,7 +137,7 @@
 
 ## Ask Copilot:
 
-- “Perform a senior-engineer code review and generate a review report.”
+- “Read the CODE_REVIEW.md file which has the prompt to be executed and generate the content in that file.”
 
 ## AI checks for:
 
@@ -228,6 +231,7 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
 
