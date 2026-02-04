@@ -10,17 +10,17 @@
 
 - Open the folder in VS Code.
 
-## Step 2️⃣ Enable GitHub Copilot
+## Step 2️⃣ Enable GitHub Copilot / Claude Code
 
-- Open GitHub Copilot Chat
+- Open GitHub Copilot Chat / Claude Code Terminal
 
-- Select GPT-5.2-Open AI or Claude (Opus/Haiku/Sonnet) as the model
+- Select GPT-5.2-Open AI or Claude (Opus/Haiku/Sonnet) as the model / Claude Opus 4.5
 
-- Ensure Copilot has access to workspace files
+- Ensure Copilot / Claude has access to workspace files
 
 ## Step 3️⃣ Understand prompts.txt
 
-## prompts.txt contains ordered instructions telling Copilot:
+## prompts.txt contains ordered instructions telling Copilot / Claude:
 
 - Which files to generate
 
@@ -34,7 +34,7 @@
 
 ## Action:
 
-## Open Copilot Chat and run:
+## Open Copilot Chat / Claude Code and run:
 
 - “Execute the prompts in prompts.txt under REQUIREMENTS sequentially for the requirements folder.”
 
@@ -117,7 +117,7 @@
 
 ## Action:
 
-## Ask Copilot:
+## Ask Copilot / Claude:
 
 - “Generate the application code using the finalized PRD, HLD, and LLD.”
 
@@ -135,7 +135,7 @@
 
 ## Action:
 
-## Ask Copilot:
+## Ask Copilot / Claude:
 
 - “Read the CODE_REVIEW.md file which has the prompt to be executed and generate the content in that file.”
 
@@ -179,7 +179,7 @@
 
 ## Action:
 
-## Ask Copilot:
+## Ask Copilot / Claude:
 
 - “Read the AI_TEST_CASES.md file which has the prompt to be executed and generate the test cases in 'PLAYWRIGHT' folder for Playwright to execute.”
 
@@ -210,8 +210,9 @@
 - Tests are then executed locally.
 
 ## Deployment on RENDER
+
 ## Follow these steps to deploy the project on Render using GitHub integration:
-## ✅ Pre-requisites
+## ✅ Pre-requisites:
 
 - Project pushed to GitHub
 
@@ -294,6 +295,7 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
 
