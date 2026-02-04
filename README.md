@@ -18,9 +18,9 @@
 
 - Ensure Copilot / Claude has access to workspace files
 
-## Step 3️⃣ Understand prompts.txt
+## Step 3️⃣ Understand PROMPTS.txt
 
-## prompts.txt contains ordered instructions telling Copilot / Claude:
+## PROMPTS.txt contains ordered instructions telling Copilot / Claude:
 
 - Which files to generate
 
@@ -36,7 +36,7 @@
 
 ## Open Copilot Chat / Claude Code and run:
 
-- “Execute the prompts in prompts.txt under REQUIREMENTS sequentially for the requirements folder.”
+- “Execute the prompts in PROMPTS.txt under REQUIREMENTS sequentially for the requirements folder.”
 
 ## What AI Does:
 
@@ -74,7 +74,7 @@
 
 ## After requirements are complete, ask:
 
-- “Re-read prompts.txt and execute the prompts for DESIGN phase - HLD & LLD.”
+- “Re-read PROMPTS.txt and execute the prompts undr 'DESIGN' for design phase - HLD & LLD.”
 
 ## High-Level Design (HLD)
 
@@ -295,6 +295,7 @@
 
 AI does not replace engineers — it removes friction.
 Engineers focus on decisions, not repetition.
+
 
 
 
