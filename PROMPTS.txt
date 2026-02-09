@@ -1,3 +1,7 @@
+PRE-REQUISITES:
+Manage your JIRA tickets and Confluence Docs by executing the following command:
+=> "claude mcp add --transport sse atlassian https://mcp.atlassian.com/v1/sse"
+
 REQUIREMENTS:
 
 1) Generate the problem statement using 00_raw_input.md as input.
@@ -67,5 +71,6 @@ DESIGN:
 14) Finally generate the ARCHITECTURE DIAGRAM of HLD and LLD as context required for DEVELOPMENT phase.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 
 
