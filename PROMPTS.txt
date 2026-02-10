@@ -21,9 +21,30 @@ REQUIREMENTS:
  
 6) Generate acceptance criteria using 05_user_stories.md.
 → 06_acceptance_criteria.md
- 
-7) Generate the final requirements document for the DESIGN phase.
-→ 07_final_requirements.md2.
+
+7) Generate reusable requirement templates using all existing requirement files as format examples.
+   → 07_requirement_templates.md
+
+8) Summarize stakeholder discussions using 00_raw_input.md or provided meeting notes.
+   → 08_stakeholder_summary.md
+
+9) Generate implementation details for each user story using 05_user_stories.md and 04_prd.md.
+   → 09_implementation_details.md
+
+10) Draft technical specifications using 04_prd.md, 05_user_stories.md, and 06_acceptance_criteria.md.
+   → 10_technical_specs.md
+
+11) Identify technical dependencies using 05_user_stories.md, 04_prd.md, and 10_technical_specs.md.
+   → 11_technical_dependencies.md
+
+12) Identify edge cases and dependencies using 05_user_stories.md, 06_acceptance_criteria.md, and 04_prd.md.
+   → 12_edge_cases.md
+
+13) Create test scenarios from requirements using 05_user_stories.md, 06_acceptance_criteria.md, and 12_edge_cases.md.
+   → 13_test_scenarios.md
+
+14) Generate the final requirements document for the DESIGN phase.
+   → 14_final_requirements.md
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -71,6 +92,7 @@ DESIGN:
 14) Finally generate the ARCHITECTURE DIAGRAM of HLD and LLD as context required for DEVELOPMENT phase.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 
 
 
