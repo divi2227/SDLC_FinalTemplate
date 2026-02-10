@@ -1,0 +1,41 @@
+1) Generate the problem statement using 00_raw_input.md as input.
+→ 01_problem.md
+ 
+2) Generate goals and objectives using 01_problem.md as context.
+→ 02_goals.md
+ 
+3) Generate objectives using 01_problem.md and 02_goals.md.
+→ 03_objectives.md
+ 
+4) Generate the full PRD content using problem, goals, and objectives.
+→ 04_prd.md
+ 
+5) Generate user stories from 04_prd.md.
+→ 05_user_stories.md
+ 
+6) Generate acceptance criteria using 05_user_stories.md.
+→ 06_acceptance_criteria.md
+ 
+7) Generate the final requirements document for the DESIGN phase.
+→ 07_final_requirements.md2.
+
+8) Generate reusable requirement templates using all existing requirement files as format examples.
+   → 07_requirement_templates.md
+
+9) Summarize stakeholder discussions using 00_raw_input.md or provided meeting notes.
+   → 08_stakeholder_summary.md
+
+10) Generate implementation details for each user story using 05_user_stories.md and 04_prd.md.
+   → 09_implementation_details.md
+
+11) Draft technical specifications using 04_prd.md, 05_user_stories.md, and 06_acceptance_criteria.md.
+   → 10_technical_specs.md
+
+12) Identify technical dependencies using 05_user_stories.md, 04_prd.md, and 10_technical_specs.md.
+   → 11_technical_dependencies.md
+
+13) Identify edge cases and dependencies using 05_user_stories.md, 06_acceptance_criteria.md, and 04_prd.md.
+   → 12_edge_cases.md
+
+14) Create test scenarios from requirements using 05_user_stories.md, 06_acceptance_criteria.md, and 12_edge_cases.md.
+   → 13_test_scenarios.md
