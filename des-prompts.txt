@@ -1,0 +1,39 @@
+1) Generate the architecture overview using the PRD as input.
+→ 01_architecture_overview.md
+ 
+2) Generate the major system components using the architecture overview and PRD.
+→ 02_system_components.md
+ 
+3) Generate high-level data flow across components using the system components and PRD.
+→ 03_data_flow.md
+ 
+4) Generate technology stack decisions using the architecture and data flow.
+→ 04_tech_stack_decisions.md
+ 
+5) Generate non-functional design considerations using the PRD and architecture.
+→ 05_non_functional_design.md
+ 
+6) Generate the final high-level design context required for low-level design.
+ 
+(LLD):
+7) Generate detailed component-level design using the high-level design and PRD.
+→ 01_component_design.md
+ 
+8) Generate API contracts using the component design and PRD.
+→ 02_api_contracts.md
+ 
+9) Generate database schema using the component responsibilities and PRD.
+→ 03_database_schema.md
+ 
+10) Generate detailed sequence flows using component design and API contracts.
+→ 04_sequence_flows.md
+ 
+11) Generate error handling strategies and edge cases using sequence flows and APIs.
+→ 05_error_handling_and_edge_cases.md
+ 
+12) Identify unresolved technical questions and assumptions from existing design documents.
+→ 06_open_questions.md
+ 
+13) Generate the final low-level design context required for the DEVELOPMENT phase.
+
+14) Finally generate the ARCHITECTURE DIAGRAM of HLD and LLD as context required for DEVELOPMENT phase.
